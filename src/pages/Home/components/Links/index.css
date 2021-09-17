@@ -1,0 +1,62 @@
+.Home-UsefulLinks {
+  width: 90%;
+  padding: 6px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff15;
+}
+
+.Home-UsefulLinks h2 {
+  width: 80%;
+  font-size: 30px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+}
+
+.Home-UsefulLinks .UsefulLinks-Content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Home-UsefulLinks .UsefulLinks-Content a {
+  height: 150px;
+  width: 200px;
+  padding: 5px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-UsefulLinks .UsefulLinks-Content a img {
+  max-height: 100%;
+  max-width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home-UsefulLinks .UsefulLinks-Content a:hover::after {
+  content: attr(data-name);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  background-color: rgba(29, 35, 39, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #13e796;
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,7 @@
+.App-Separator {
+    width: 90%;
+    height: 2px;
+    background-color: #13e796;
+    margin: 30px 0;
+    border-radius: 100px;
+}

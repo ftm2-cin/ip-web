@@ -1,0 +1,36 @@
+.Card-Content .Image-Container {
+  height: 150px;
+  width: 150px;
+  padding: 8px;
+}
+
+.Card-Content .Image-Container img {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #13e796;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Card-Popup {
+  height: 110px;
+  width: 250px;
+  padding: 8px;
+
+  background-color: #fff;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 3px 3px 4px #00000085;
+}
+
+.Card-Popup-Social {
+  padding: 8px;
+}
+
+.Card-Popup-Social a {
+  outline: none;
+}

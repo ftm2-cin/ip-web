@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import Header from './components/Header'
+import Routes from './routes';
+import allRoutes from './data/appRoutes';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header sections={allRoutes} />
+      <div className="App-content">
+        <Routes allRoutes={allRoutes} />
+      </div>
+      <footer>
+        Todos os direitos reservados. Créditos à Victoria Luquet (vllst)
+      </footer>
     </div>
   );
 }

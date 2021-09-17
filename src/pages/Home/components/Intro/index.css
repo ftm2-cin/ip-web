@@ -1,0 +1,29 @@
+.Home-Intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home-Intro h2 {
+    width: 80%;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+}
+
+.Home-Intro .Intro-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Home-Intro .Intro-Content .Text-Intro {
+    width: 80%;
+    text-align: center;
+    margin: 20px 0;
+}

@@ -1,29 +1,48 @@
 .Home-Intro {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Home-Intro h2 {
-    width: 80%;
-    font-size: 30px;
-    margin-bottom: 10px;
+  width: 80%;
+  font-size: 30px;
+  margin-bottom: 10px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #fff;
 }
 
 .Home-Intro .Intro-Content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Home-Intro .Intro-Content .Text-Intro {
-    width: 80%;
-    text-align: center;
-    margin: 20px 0;
+  width: 80%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.Home-Intro .Video-Intro a {
+  text-decoration: none;
+  color: #131f22;
+  background-color: #13e796;
+  padding: 5px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.Home-Intro .Video-Intro a:hover {
+  background-color: #13e7969d;
+}
+
+@media (max-width: 400px) {
+  .Home-Intro h2 {
+    font-size: 22px;
+  }
 }

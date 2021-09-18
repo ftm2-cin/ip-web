@@ -32,3 +32,17 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+@media(max-width: 400px) {
+  .App {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% 88% 2%;
+    background-color: #131f22;
+  }
+
+  .App-content {
+    padding: 30px 8px 8px 8px;
+  }
+}

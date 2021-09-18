@@ -12,7 +12,6 @@ function Intro(props) {
   });
 
   const renderVideo = () => {
-    console.log(width)
     if (width <= 400) {
       return (
         <a

@@ -10,7 +10,7 @@ function App() {
       <div className="App-content">
         <Routes allRoutes={allRoutes} />
       </div>
-      <footer>
+      <footer className="App-footer">
         Todos os direitos reservados. Créditos à Victoria Luquet (vllst)
       </footer>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import Card from "./Card";
+import { IoSchoolSharp } from "react-icons/io5";
+import Card from "./components/Card";
 import data from "../../../../data/monitores";
 import "./index.css";
 
@@ -7,7 +8,7 @@ function Gallery(props) {
     const { teacher, tutors } = data;
     return (
         <div className="Home-Gallery">
-            <h2>Professor e Monitores</h2>
+            <h2>Professor e Monitores <IoSchoolSharp style={{ marginLeft: "8px" }} color="#13e796" /></h2>
             <div className="Gallery-Content">
                 <div className="Gallery-Teacher">
                     <div>

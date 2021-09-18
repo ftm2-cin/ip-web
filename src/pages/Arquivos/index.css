@@ -1,0 +1,73 @@
+.Archive-List {
+  background-color: #4e525060;
+  padding: 8px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.Archive-Title {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ArchiveOL {
+  list-style: none;
+  padding: 10px;
+}
+
+.ArchiveOL .ArchiveOL-Item {
+  padding: 5px;
+  margin: 4px 0;
+}
+
+.ArchiveOL li .semester {
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+  transition: 0.25 ease-in-out;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ArchiveOL li .semester.selected {
+  border-bottom: 2px solid #13e796;
+}
+
+.ArchiveOL li .semester:hover {
+  border-bottom: 2px solid #13e796;
+}
+
+.ArchiveOL-Content {
+  padding: 8px 3px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.ArchiveOL-Content li {
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ArchiveOL-Content li a {
+  width: 100%;
+  height: 100%;
+  color: #13e796;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+}
+
+.ArchiveOL-Content li a:hover {
+  text-decoration: underline;
+}

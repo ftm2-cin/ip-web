@@ -7,7 +7,7 @@ function Elements({ archives }) {
   return (
     <ol className="ArchiveOL-Content">
       {archives.map(({ name, link }) => (
-        <li>
+        <li key={name + link}>
           <a href={link} target="_blank" rel="noreferrer">
             {name}
           </a>
@@ -36,7 +36,7 @@ function ArquivosPage(props) {
         </h2>
         <ol className="ArchiveOL">
           {MiniProvas.map(({ semester, archives }) => (
-            <li className="ArchiveOL-Item">
+            <li key={semester} className="ArchiveOL-Item">
               <div
                 onClick={displaySemester.bind(null, semester, "MP")}
                 className={`semester ${
@@ -65,7 +65,7 @@ function ArquivosPage(props) {
         </h2>
         <ol className="ArchiveOL">
           {Provas.map(({ semester, archives }) => (
-            <li className="ArchiveOL-Item">
+            <li key={semester} className="ArchiveOL-Item">
               <div
                 onClick={displaySemester.bind(null, semester, "P")}
                 className={`semester ${

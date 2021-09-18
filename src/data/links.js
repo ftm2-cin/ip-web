@@ -32,7 +32,7 @@ const content = [
         img: GameImg
     },
     {
-        name: 'Site da Monitoria',
+        name: 'Site da Disciplina',
         link: 'https://sites.google.com/a/cin.ufpe.br/if669ec/',
         img: StudyImg
     },

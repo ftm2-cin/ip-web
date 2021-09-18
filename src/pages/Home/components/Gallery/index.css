@@ -49,3 +49,38 @@
   justify-items: center;
   align-content: center;
 }
+
+@media (max-width: 400px) {
+  .Home-Gallery h2 {
+    width: 95%;
+    font-size: 22px;
+    margin-bottom: 20px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+  }
+
+  .Gallery-Content .Gallery-Teacher {
+    padding: 5px;
+  }
+
+  .Gallery-Content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Gallery-Tutors {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Card-Popup {
+    height: 85px;
+    width: 200px;
+  
+    font-size: 12px;
+  }
+}

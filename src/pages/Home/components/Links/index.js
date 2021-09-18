@@ -12,7 +12,7 @@ function UsefulLinks(props) {
             <div className="UsefulLinks-Content">
                 {
                     content.map(({ name, img, link }) => (
-                        <a data-name={name} href={link} target="_blank" rel="noreferrer">
+                        <a key={name} data-name={name} href={link} target="_blank" rel="noreferrer">
                             <img src={img} alt={name} />
                         </a>)
                     )

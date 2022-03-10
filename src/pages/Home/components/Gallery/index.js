@@ -19,7 +19,8 @@ function Gallery(props) {
                 </div>
                 <div className="Gallery-Tutors">
                     {tutors.map(({ name, periodo, login, github, img, linkedin }) => (
-                        <Card key={name} name={name} periodo={periodo} login={login} github={github} img={img} linkedin={linkedin} />
+                        <Card key={name} name={name} periodo={periodo} 
+                            login={login} github={github} img={img} linkedin={linkedin} />
                     ))}
                 </div>
             </div>

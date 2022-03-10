@@ -61,7 +61,7 @@
   font-weight: 600;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .Home-UsefulLinks .UsefulLinks-Content {
     display: grid;
     grid-template-columns: 1fr 1fr;

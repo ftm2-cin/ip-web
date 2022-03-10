@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { IoSchoolOutline } from "react-icons/io5";
+import { IoSchoolOutline, IoFileTrayOutline } from "react-icons/io5";
 import "./index.css";
 
 function Header({ sections }) {
@@ -35,6 +35,17 @@ function Header({ sections }) {
             >
               <IoSchoolOutline />
               Notas
+            </a>
+          </li>
+          <li className="App-NavItem">
+            <a
+              onClick={emmitAlert}
+              href="https://drive.google.com/drive/folders/1STo4COxHusk2v2W9XzXmIXLEzq7MO00W?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IoFileTrayOutline />
+              Drive
             </a>
           </li>
         </ul>

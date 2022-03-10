@@ -7,12 +7,14 @@ import jmbj2 from "../assets/img/jmbj2.jpg";
 import pfbc2 from "../assets/img/pfbc2.jpg";
 import rnfo from "../assets/img/rnfo.jpg";
 import acm from "../assets/img/acm.jpg";
+import maa5 from "../assets/img/maa5.jpg";
+import tjas from "../assets/img/tjas.jpg";
 
 const data = [
     {
         name: "Murilo Barbosa",
         login: "mbn2",
-        periodo: 3,
+        periodo: 4,
         img: murilo,
         linkedin: "https://www.linkedin.com/in/murilobn/",
         github: "https://github.com/mulirow",
@@ -20,7 +22,7 @@ const data = [
     {
         name: "Victoria Luquet",
         login: "vllst",
-        periodo: 3,
+        periodo: 4,
         img: luquet,
         linkedin: "https://www.linkedin.com/in/victoria-luquet-8766891a2/",
         github: "https://github.com/vicluq",
@@ -28,7 +30,7 @@ const data = [
     {
         name: "Matheus Boncsidai",
         login: "mjbo",
-        periodo: 3,
+        periodo: 4,
         img: matheus,
         linkedin: "",
         github: "https://github.com/Mathbonc",
@@ -36,7 +38,7 @@ const data = [
     {
         name: "Jeferson Severino",
         login: "jsa2",
-        periodo: 3,
+        periodo: 4,
         img: jeferson,
         linkedin: "https://www.linkedin.com/in/jeferson-severino-959925184/",
         github: "https://github.com/jefersonseverino",
@@ -44,7 +46,7 @@ const data = [
     {
         name: "Daniel Silva",
         login: "jdsc2",
-        periodo: 2,
+        periodo: 3,
         img: jdsc2,
         linkedin: "",
         github: "",
@@ -52,7 +54,7 @@ const data = [
     {
         name: "José Marcondes",
         login: "jmbj2",
-        periodo: 2,
+        periodo: 3,
         img: jmbj2,
         linkedin: "",
         github: "",
@@ -60,7 +62,7 @@ const data = [
     {
         name: "Pedro Fernandes",
         login: "pfbc2",
-        periodo: 2,
+        periodo: 3,
         img: pfbc2,
         linkedin: "",
         github: "https://github.com/fernandesbarreto",
@@ -68,18 +70,37 @@ const data = [
     {
         name: "Renato Nogueira",
         login: "rnfo",
-        periodo: 3,
+        periodo: 4,
         img: rnfo,
         linkedin: "",
         github: "https://github.com/RenatoNogFer",
     },
+    {
+        name: "Marcela",
+        login: "maa5",
+        periodo: 2,
+        img: maa5,
+        linkedin: "",
+        github: "https://github.com/maa134340",
+    },
+    {
+        name: "Thiago",
+        login: "tjas",
+        periodo: 2,
+        img: tjas,
+        linkedin: "https://www.linkedin.com/in/thijalves/",
+        github: "https://github.com/Thijalves",
+    },
 ];
 
-export default {
+
+const allData = {
     tutors: data,
     teacher: {
         name: "Alexandre Cabral Mota",
         login: "acm",
         img: acm,
     }
-};
+}
+
+export default allData ;

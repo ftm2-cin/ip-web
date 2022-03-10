@@ -70,7 +70,7 @@
   color: #13e796;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 675px) {
   .App-Header {
     height: 100%;
     width: 100%;
@@ -82,5 +82,41 @@
     width: 100%;
     height: 100%;
     justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .App-Header {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .App-Title {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .App-Nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .App-Nav ul li a {
+    background-color: transparent;
+    color: #131f22;
+  }
+
+  .App-Nav ul li a:hover {
+    border-radius: 0px;
+    color: #fff;
+  }
+  
+  .App-Nav ul li a.active {
+    color: #fff;
   }
 }

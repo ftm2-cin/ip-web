@@ -91,7 +91,7 @@ const data = [
         periodo: 2,
         img: ffss,
         linkedin: "https://www.linkedin.com/in/felipe-ferreira-da-silva-santos-15aa4624a/",
-        github: "https://github.com/anaalbsantos",
+        github: "https://github.com/SageScroll18144",
     },
     {
         name: "Gabriel Nogueira",

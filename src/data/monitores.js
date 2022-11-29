@@ -8,6 +8,9 @@ import alas4 from "../assets/img/alas4.jpeg";
 import ffss from "../assets/img/ffss.jpeg";
 import dlc3 from "../assets/img/dlc3.jpeg";
 import gnmp from "../assets/img/gnmp.jpeg";
+import lsa4 from "../assets/img/lsa4.jpeg";
+import nrc2 from "../assets/img/nrc2.jpeg";
+import man2 from "../assets/img/man2.jpeg";
 
 const data = [
     {
@@ -27,6 +30,14 @@ const data = [
         github: "https://github.com/fernandesbarreto",
     },
     {
+        name: "Daniel Silva",
+        login: "jdsc2",
+        periodo: 5,
+        img: jdsc2,
+        linkedin: "",
+        github: "",
+    },
+    {
         name: "Marcela Asfora",
         login: "maa5",
         periodo: 4,
@@ -43,12 +54,20 @@ const data = [
         github: "https://github.com/Thijalves",
     },
     {
-        name: "Daniel Silva",
-        login: "jdsc2",
-        periodo: 5,
-        img: jdsc2,
+        name: "Nathalia Coelho",
+        login: "nrc2",
+        periodo: 3,
+        img: nrc2,
+        linkedin: "https://www.linkedin.com/in/nath%C3%A1lia-rezende-coelho-a2a2781ba/",
+        github: "https://github.com/nrc2",
+    },
+    {
+        name: "Mateus Neves",
+        login: "man2",
+        periodo: 3,
+        img: man2,
         linkedin: "",
-        github: "",
+        github: "https://github.com/MateusNeeves",
     },
     {
         name: "Ana Laura",
@@ -82,9 +101,16 @@ const data = [
         linkedin: "https://www.linkedin.com/in/gabriel-nogueira-a4849424b/",
         github: "https://github.com/nogueira04",
     },
+    {
+        name: "Lucas Absalão",
+        login: "lsa4",
+        periodo: 2,
+        img: lsa4,
+        linkedin: "https://www.linkedin.com/in/lucas-absalão-66144522a/",
+        github: "https://github.com/LightAsh04",
+    },
     
 ];
-
 
 const allData = {
     tutors: data,

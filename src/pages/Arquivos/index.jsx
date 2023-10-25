@@ -18,7 +18,7 @@ function Elements({ archives }) {
 }
 
 function ArquivosPage(props) {
-  const { MiniProvas, Provas } = archives;
+  const { MiniProvas, Provas, Finais } = archives;
   const [displayMP, setDisplayMP] = useState("");
   const [displayP, setDisplayP] = useState("");
 
@@ -80,6 +80,36 @@ function ArquivosPage(props) {
                 )}
               </div>
               {displayP === semester && (
+                <div>
+                  <Elements archives={archives} />
+                </div>
+              )}
+            </li>
+          ))}
+        </ol>
+      </div>
+      <div className="Archive-List MiniProvas">
+        <h2 className="Archive-Title">
+          Finais{" "}
+          <RiEdit2Line color="#13e796" style={{ marginLeft: "6px" }} />
+        </h2>
+        <ol className="ArchiveOL">
+          {Finais.map(({ semester, archives }) => (
+            <li key={semester} className="ArchiveOL-Item">
+              <div
+                onClick={displaySemester.bind(null, semester, "MP")}
+                className={`semester ${
+                  displayMP === semester ? "selected" : ""
+                } unselectable`}
+              >
+                {semester}
+                {displayMP === semester ? (
+                  <RiArrowUpSLine />
+                ) : (
+                  <RiArrowDownSLine />
+                )}
+              </div>
+              {displayMP === semester && (
                 <div>
                   <Elements archives={archives} />
                 </div>

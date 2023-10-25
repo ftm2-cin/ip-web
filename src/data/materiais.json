@@ -143,5 +143,52 @@
         }
       ]
     }
+  ],
+  "Finais": [
+    {
+      "semester": "2020.3",
+      "archives": [
+        {
+          "name": "FINAL",
+          "link": "https://drive.google.com/drive/folders/1XARTpHOq2jgZw3lPfXlwUdSjwfTUeR6I"
+        }
+      ]
+    },
+    {
+      "semester": "2021.2",
+      "archives": [
+        {
+          "name": "FINAL",
+          "link": "https://drive.google.com/drive/folders/13zj2eC1uP2EO0A8xfmyLybZVW2klhQrb"
+        }
+      ]
+    },
+    {
+      "semester": "2022.1",
+      "archives": [
+        {
+          "name": "FINAL",
+          "link": "https://drive.google.com/drive/folders/1VC9ovqQnAjpti9DX28XlXnH46zhWqLuH"
+        }
+      ]
+    },
+    {
+      "semester": "2022.2",
+      "archives": [
+        {
+          "name": "FINAL",
+          "link": "https://drive.google.com/drive/folders/1iC23iNow5gxI2ikVsA6Ma0tYk_kSwJ0r"
+        }
+      ]
+    },
+    {
+      "semester": "2023.1",
+      "archives": [
+        {
+          "name": "FINAL",
+          "link": "https://drive.google.com/drive/folders/1i8Zp6KTq-pO9KNT5Il69JcBXvVO7xaxs"
+        }
+      ]
+    }
   ]
 }

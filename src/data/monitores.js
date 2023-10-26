@@ -1,6 +1,6 @@
 import acm from "../assets/img/acm.jpg";
 import alas4 from "../assets/img/alas4.jpeg";
-import ffss from "../assets/img/ffss.jpeg";
+import ffss from "../assets/img/ffss.png";
 import dlc3 from "../assets/img/dlc3.jpeg";
 import gnmp from "../assets/img/gnmp.jpeg";
 import lsa4 from "../assets/img/lsa4.jpeg";
@@ -32,7 +32,7 @@ const data = [
         login: "ffss",
         periodo: 4,
         img: ffss,
-        linkedin: "https://www.linkedin.com/in/felipe-ferreira-da-silva-santos-15aa4624a/",
+        linkedin: "https://www.linkedin.com/in/felipe-santos-15aa4624a/",
         github: "https://github.com/SageScroll18144",
     },
     {

@@ -8,7 +8,7 @@ import aam4 from "../assets/img/aam4.jpeg";
 import agaf2 from "../assets/img/agaf2.png";
 import ftm2 from "../assets/img/ftm2.jpeg";
 import rpf from "../assets/img/rpf.jpg";
-import hhhc from "../assets/img/hhhc.jpg";
+import hhhc from "../assets/img/hhhc.jpeg";
 
 const data = [
     {
@@ -80,16 +80,16 @@ const data = [
         login: "hhhc",
         periodo: 3,
         img: hhhc,
-        linkedin: "https://www.linkedin.com/in/felipe-torres-334642236",
-        github: "https://github.com/ftm2-cin",
+        linkedin: "https://www.linkedin.com/in/heitor-cordeiro-15b6a0293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        github: "",
     },
     {
         name: "Rafael Paz",
         login: "rpf",
         periodo: 2,
         img: rpf,
-        linkedin: "https://www.linkedin.com/in/felipe-torres-334642236",
-        github: "https://github.com/ftm2-cin",
+        linkedin: "https://www.linkedin.com/in/rafael-paz-fernandes-a8b0a2298/",
+        github: "https://github.com/rafael-pf",
     },
 ];
 
